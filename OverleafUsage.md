@@ -1,1 +1,0 @@
-<H1>Using LaTeX Manual in Overleaf</H1>
