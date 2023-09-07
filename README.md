@@ -1,4 +1,4 @@
-# LaTeX Manual Template</h1>
+# LaTeX Manual Template
 
 Using the LaTeX manual template in Overleaf: \
 1. Download and create a ZIP file from the OverleafSampleManual directory.
