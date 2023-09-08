@@ -1,6 +1,6 @@
 # LaTeX Manual Template
 
-Using the LaTeX manual template in Overleaf: \
+Using the LaTeX manual template in Overleaf: 
 1. Download and create a ZIP file from the OverleafSampleManual directory.
 2. Creat an accound and go to the main page after the account is created, as shown below:
 ![overleaf](./OverleafSampleManual/Figures/Overleaf.png "Overleaf")
