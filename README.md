@@ -10,8 +10,7 @@ Using the LaTeX manual template in Overleaf:
 ![overleaf](./OverleafSampleManual/Figures/OverleafCompiled.png "Overleaf")
 5. manual.tex is the main entry point in the project.
 6. manIntroduction.tex is the introduction chapter.
-7. To add a new chapter save manIntroduction.tex to a new file, say manClassDiagrams.tex. (In overleaf you add manClassDiagrams.tex firs and then copy/paste the contents 
-of introduction.tex).
+7. To add a new chapter save manIntroduction.tex to a new file, say manClassDiagrams.tex. (In overleaf you add manClassDiagrams.tex first and then copy/paste the contents of introduction.tex).  Comment out the figure and any text that's not relevant to this new chapter.
 8. In manual.tex add manClassDiagrams.tex to \includeonly{}
 and \include{}.   
 <pre><code>
@@ -29,4 +28,4 @@ and
 </code></pre>
 9. Study the contents of the template and play with 
 things such as \label{} and \reference{}. 
-10. Using Visio2000 you can create beautiful UML diagrams that can be saved as .EPS files and they can be integrated  beautifully into LaTeX files.  Go to the Visio2000 directory to read more about the UML stencils.
+10. Using Visio2000 you can create beautiful UML diagrams that can be saved as .EPS files and they can be integrated, beautifully, into LaTeX files.  Go to the Visio2000 directory to read more about the UML stencils.
