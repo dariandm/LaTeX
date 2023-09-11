@@ -29,3 +29,8 @@ and
 9. Study the contents of the template and play with 
 things such as \label{} and \reference{}. 
 10. Using Visio2000 you can create beautiful UML diagrams that can be saved as .EPS files and they can be integrated, beautifully, into LaTeX files.  Go to the Visio2000 directory to read more about the UML stencils.
+
+Using LaTeX inside Overleaf makes things super easy to use but the free version does not allow collaboration and requires online connection.  An alternative to running LaTeX is to compile and edit it on your local machine.  The advantage of it is that team collaboration becomes super easy via source control.  The steps are shown here:
+
+[RunLaTeXOnLocalWindows](./RunLaTeXOnLocalWindows.md)
+
