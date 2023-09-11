@@ -11,7 +11,7 @@ Here are the steps for running LaTeX on your local Windows machine:
 7. After starting the TexNicCenter for the very first time you will need to set up a few settings.  These settings can be configured at a later time from: *Build / Define Output Profiles ...*
 ![configure](./Images/DefineOutputs.png "Configure")
 8. The Profile that we want to use and edit is LaTeX=>PS=>PDF.
-9. Click on the (La)TeX tab:
+9. Click on the (La)TeX tab: \
 ![configure](./Images/LaTeX-PS-PDF.png "Configure")
     - Path to (La)TeX compiler: C:\Program Files\MiKTeX\miktex\bin\x64\latex.exe
     - Command to pass to the compiler: -synctex=-1 -interaction=nonstopmode "%wm"
