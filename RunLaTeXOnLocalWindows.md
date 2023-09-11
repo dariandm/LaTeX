@@ -11,7 +11,7 @@ Here are the steps for running LaTeX on your local Windows machine:
 7. After starting the TexNicCenter for the very first time you will need to set up a few settings.  These settings can be configured at a later time from: *Build / Define Output Profiles ...*
 ![configure](./Images/DefineOutputs.png "Configure")
 8. The Profile that we want to use and edit is LaTeX=>PS=>PDF.
-9. Click on the (La)TeX tab:
+9. Click on the (La)TeX tab: \
 ![configure](./Images/LaTeX-PS-PDF.png "Configure")
     - Path to (La)TeX compiler: C:\Program Files\MiKTeX\miktex\bin\x64\latex.exe
     - Command to pass to the compiler: -synctex=-1 -interaction=nonstopmode "%wm"
@@ -19,7 +19,7 @@ Here are the steps for running LaTeX on your local Windows machine:
     - Command to Bib TeX: "%tm"
     - MakeIndex executable: C:\Program Files\MiKTeX\miktex\bin\x64\makeindex.exe
     - MakeIndex command: "%tm.idx" -t "%tm.ilg" -o "%tm.ind"
-10. Click the Postprocessor tab:
+10. Click the Postprocessor tab: \
 ![configure](./Images/Processor.png "Configure")
     - Click DviPs (PDF): and verify:
         - Executable: \
@@ -31,7 +31,7 @@ Here are the steps for running LaTeX on your local Windows machine:
         C:\Program Files\gs\gs9.56.0\bin\gswin64c.exe
         - Arguments: \
         -sPAPERSIZE=a4 -dSAFER -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile="%bm.pdf" -c save pop -f "%bm.ps"
-11. Click on the Viewer tab:
+11. Click on the Viewer tab: \
 ![configure](./Images/Viewer.png "Configure")
     - Executable path: \
     C:\Users\DarianMuresan\AppData\Local\SumatraPDF\SumatraPDF.exe -inverse-search "\"C:\Program Files\TeXnicCenter\TeXnicCenter.exe\" /ddecmd \"[goto('%f','%l')]\"" \
@@ -45,4 +45,4 @@ Here are the steps for running LaTeX on your local Windows machine:
 13. There are some major advantages to using (.eps) files.  The two main ones are:
     - the figures will scale, if they are not bitmaps, beautifully.  They are vectorized files.
     - you can use the *PSFRAG* package to include beautiful math equations in your drawings and most importantly to add references or links.
-14. To read more on using (.eps) files follow [RunLaTeXWithEPS](./RunLaTeXWithEPS.md) 
+14. To read more about using (.eps) files follow [RunLaTeXWithEPS](./RunLaTeXWithEPS.md).
