@@ -27,3 +27,14 @@
 3.  If everything works, you will see the following beautiful figure:
 
 ![elipseOutput](./Images/manElipseOutput.png "elipseOutput")
+
+# More Examples of Beautiful Figures
+
+All these examples are created with Visio 2000, exporting
+the data as an EPS file and then using PSFRAG to replace
+text with LaTeX commands.
+
+![sphericalProjection](./Images/manSphericalProjection.png "sphericalProjection")
+
+
+![3DMapping](./Images/man3DProjection.png "3DProjection")
