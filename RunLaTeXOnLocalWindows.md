@@ -33,8 +33,10 @@ Here are the steps for running LaTeX on your local Windows machine:
         -sPAPERSIZE=a4 -dSAFER -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile="%bm.pdf" -c save pop -f "%bm.ps"
 11. Click on the Viewer tab: \
 ![configure](./Images/Viewer.png "Configure")
-    - Executable path: \
-    C:\Users\DarianMuresan\AppData\Local\SumatraPDF\SumatraPDF.exe -inverse-search "\"C:\Program Files\TeXnicCenter\TeXnicCenter.exe\" /ddecmd \"[goto('%f','%l')]\"" \
+    - Executable path: 
+
+    C:\Users\DarianMuresan\AppData\Local\SumatraPDF\SumatraPDF.exe -inverse-search "\\"C:\Program Files\TeXnicCenter\TeXnicCenter.exe\" /ddecmd \\"[goto('%f','%l')]\\""
+    
     (You may have to put the exe path in double quoates if it contains spaces and obviously, replace *DarianMuresan* with your own user account.)
     - Command line: \
     "%bm.pdf"
