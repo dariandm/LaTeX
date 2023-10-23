@@ -6,6 +6,9 @@ Here are the steps for running LaTeX on your local Windows machine:
 3. Download and install SumatraPDF: https://www.sumatrapdfreader.org/download-free-pdf-viewer
 4.  Download and install MikTex: https://miktex.org/download
     - During installation, answer YES when asked if to automatically download and install missing packages.
+    - The sample commands assume that MikTex is installed in C:\Program Files.
+    Select the installation option to be for "Everyone" to install in C:\Program Files. Else, 
+    it will be installed in C:\Users and then you'll have to adopt the installation paths.
 5. Download and install TexNicCenter: https://www.texniccenter.org/download/
 6. Start TexNicCenter.
 7. After starting the TexNicCenter for the very first time you will need to set up a few settings.  These settings can be configured at a later time from: *Build / Define Output Profiles ...*
